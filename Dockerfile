@@ -1,3 +1,2 @@
-FROM node:15.11.0-alpine3.11
-RUN apk add --no-cache python2
-
+FROM node:15.11.0-buster
+RUN apt-get install python2
